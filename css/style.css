@@ -1,6 +1,24 @@
 body {
 	text-align: center;
 	font-family: Raleway, sans serif;
+	margin: 0;
+}
+
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
+}
+
+nav {
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	padding: 20px 0;
+}
+
+main {
+	width: 850px;
+	margin: 35px auto;
 }
 
 a {
@@ -10,11 +28,12 @@ a {
 h1 {
 	font-weight: 400;
 	font-size: 45px;
-	color: #0D2C40;
+	margin: 0;
+/*	color: #0D2C40;*/
 }
 
 h2 {
-	color: #0D2C40;
+/*	color: #0D2C40;*/
 	font-weight: 600;
 	font-size: 20px;
 }
@@ -30,13 +49,21 @@ h1, h2, a {
 }
 
 a {
-	color: #F15B31;
+/*	color: #F15B31;*/
+	color: #FFFFFF;
 	font-weight: 600;
 	font-size: 18px;
+	margin: 0 20px;
 }
 
 a.plain {
 	text-transform: lowercase;
+	color: #F15B31;
+	margin: 0;
+}
+
+img {
+	margin: 40px 8px;
 }
 
 p {
