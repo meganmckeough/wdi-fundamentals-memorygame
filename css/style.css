@@ -41,6 +41,7 @@ h2 {
 h3 {
 	font-style: italic;
 	font-weight: 400;
+	border: 0;
 }
 
 h1, h2, a {
@@ -54,12 +55,11 @@ a {
 	font-weight: 600;
 	font-size: 18px;
 	margin: 0 20px;
+	border-bottom: 2px solid transparent;
 }
 
-a.plain {
-	text-transform: lowercase;
-	color: #F15B31;
-	margin: 0;
+a:hover {
+	border-bottom: 2px solid white;
 }
 
 img {
@@ -70,4 +70,39 @@ p {
 	font-family: "Droid Serif", serif;
 	line-height: 26px;
 	font-size: 18px;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+}
+
+.copyright {
+	float: left;
+	font-weight: 500;
+	font-family: Raleway, sans serif;
+}
+
+.message {
+	float: right;
+	font-weight: 500;
+	font-family: Raleway, sans serif;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
 }
